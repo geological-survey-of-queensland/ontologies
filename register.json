@@ -1,12 +1,14 @@
 [
     {
         "title": "SWEET Geological Features Profile Ontology",
-        "rdf_file": "https://raw.githubusercontent.com/geological-survey-of-queensland/sweet-geological-features-profile-ont/master/sweetgeofeatures.ttl",
+        "download_url": "https://raw.githubusercontent.com/geological-survey-of-queensland/sweet-geological-features-profile-ont/master/sweetgeofeatures.ttl",
+        "html_url": "https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont/blob/master/sweetgeofeatures.ttl",
         "repository": "https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont"
     } ,
     {
         "title": "GSQ Geological Administrative Features Ontology",
-        "rdf_file": "http://linked.data.gov.au/def/geoadminfeatures.ttl",
+        "download_url": "http://linked.data.gov.au/def/geoadminfeatures.ttl",
+        "html_url": "https://github.com/geological-survey-of-queensland/geoadmin-features-ont/blob/master/geoadminfeatures.ttl",
         "repository": "https://github.com/geological-survey-of-queensland/geoadmin-features-ont"
     }
 ]
