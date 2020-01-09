@@ -7,7 +7,7 @@
     } ,
     {
         "title": "GSQ Geological Administrative Features Ontology",
-        "download_url": "hhttps://raw.githubusercontent.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
+        "download_url": "https://raw.githubusercontent.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
         "html_url": "https://github.com/geological-survey-of-queensland/geoadmin-features-ont/blob/master/geoadminfeatures.ttl",
         "repository": "https://github.com/geological-survey-of-queensland/geoadmin-features-ont"
     }
