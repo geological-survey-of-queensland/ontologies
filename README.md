@@ -9,16 +9,16 @@ The currently published ontologies are:
 * **GSQ Geo Admin Features Ontology**
   * HTML: *coming!*
   * RDF (data): *coming!*
-  * [repository)[https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont]
-* **GSQ Geological Administrative Features Ontology**]
+  * [repository](https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont)
+* **GSQ Geological Administrative Features Ontology**
   * HTML: <http://linked.data.gov.au/def/geoadminfeatures>
   * RDF (data): <http://linked.data.gov.au/def/geoadminfeatures.ttl>
-  * [repository)[https://github.com/geological-survey-of-queensland/geoadmin-features-ont]
+  * [repository](https://github.com/geological-survey-of-queensland/geoadmin-features-ont)
   
   A machine-readable list of ontologies is also available at [register.json](register.json).
   
 ### Further Documentation
-More information about GSQ's ontologies overall is available within the wiki of this repository. Inmcluded is GSQ's ontology publication processes and descriptions of the relationship between ontologies and vocabularies.
+More information about GSQ's ontologies overall is available within [the wiki of this repository](https://github.com/geological-survey-of-queensland/ontologies/wiki). Included is GSQ's ontology publication processes and descriptions of the relationship between ontologies and vocabularies.
   
 See the individual ontology's repos for information about them.
 
