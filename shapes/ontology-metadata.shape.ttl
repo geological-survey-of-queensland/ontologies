@@ -1,15 +1,13 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix loci: <http://linked.data.gov.au/def/loci#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@base <https://data.surroundaustralia.com/dataset/govkg/shapes/assets/> .
+@base <https://data.surroundaustralia.com/shapes/ontology/> .
 
-<OntologyTitleShape>
+<TitleShape>
 	a sh:NodeShape ;
 	sh:targetClass owl:Ontology ;
     sh:message "An Ontology must have either a skos:prefLabel, dct:title or rdfs:label property (a Literal) and may only have at most one of each per language." ;
@@ -38,7 +36,7 @@
     ) ;
 .
 
-<OntologyDescriptionShape>
+<DescriptionShape>
 	a sh:NodeShape ;
 	sh:targetClass owl:Ontology ;
     sh:message "A Ontology must have either a skos:definition, dct:description or rdfs:comment property (a Literal) and may only have at most one of each per language." ;
@@ -67,7 +65,7 @@
     ) ;
 .
 
-<OntologyCreatorShape>
+<CreatorShape>
 	a sh:NodeShape ;
 	sh:targetClass owl:Ontology ;
     sh:property [
@@ -85,7 +83,7 @@
     ] ;  
 .
 
-<OntologyPublisherShape>
+<PublisherShape>
 	a sh:NodeShape ;
 	sh:targetClass owl:Ontology ;
     sh:property [
