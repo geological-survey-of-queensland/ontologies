@@ -1,0 +1,143 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix loci: <http://linked.data.gov.au/def/loci#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <https://data.surroundaustralia.com/dataset/govkg/shapes/assets/> .
+
+<OntologyTitleShape>
+	a sh:NodeShape ;
+	sh:targetClass owl:Ontology ;
+    sh:message "An Ontology must have either a skos:prefLabel, dct:title or rdfs:label property (a Literal) and may only have at most one of each per language." ;
+    sh:xone (
+        [
+            sh:property [
+                sh:path skos:prefLabel ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path dct:title ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ]
+        [
+            sh:property [                
+                sh:path rdfs:label ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ]         
+    ) ;
+.
+
+<OntologyDescriptionShape>
+	a sh:NodeShape ;
+	sh:targetClass owl:Ontology ;
+    sh:message "A Ontology must have either a skos:definition, dct:description or rdfs:comment property (a Literal) and may only have at most one of each per language." ;
+    sh:xone (
+        [
+            sh:property [
+                sh:path skos:definition ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ] 
+        [
+            sh:property [
+                sh:path dct:description ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ] 
+        [
+            sh:property [
+                sh:path rdfs:comment ;
+                sh:minCount 1 ;
+                sh:uniqueLang true ;
+            ]
+        ]    
+    ) ;
+.
+
+<OntologyCreatorShape>
+	a sh:NodeShape ;
+	sh:targetClass owl:Ontology ;
+    sh:property [
+        sh:path dct:creator ;
+        sh:minCount 1 ;
+        sh:or (
+            [
+                sh:class sdo:Organization ;
+            ]
+            [
+                sh:class sdo:Person ;
+            ]
+        ) ;       
+        sh:message "An Ontology must have a dct:creator property (an sdo:Organization or an sdo:Person)" ;
+    ] ;  
+.
+
+<OntologyPublisherShape>
+	a sh:NodeShape ;
+	sh:targetClass owl:Ontology ;
+    sh:property [
+        sh:path dct:publisher;
+        sh:minCount 1 ;
+        sh:or (
+            [
+                sh:class sdo:Organization ;
+            ]
+            [
+                sh:class sdo:Person ;
+            ]
+        ) ;        
+        sh:message "An Ontology must have a dct:publisher property (an IRI)" ;
+    ] ;
+.
+
+<NecissaryDatesShape>
+	a sh:NodeShape ;
+	sh:targetClass owl:Ontology ;
+    sh:property [
+        sh:path dct:created ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; 
+        sh:or (
+            [
+                sh:datatype xsd:dateTime ;
+            ]
+            [
+                sh:datatype xsd:date ;
+            ]
+            [
+                sh:datatype xsd:dateTimeStamp ;
+            ]            
+        ) ;
+        sh:message "An Ontology must have a dct:created property that must be either an xsd:date, xsd:dateTime or xsd:dateTimeStamp." ;
+    ] ; 
+    sh:property [
+        sh:path dct:modified ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:or (
+            [
+                sh:datatype xsd:dateTime ;
+            ]
+            [
+                sh:datatype xsd:date ;
+            ]
+            [
+                sh:datatype xsd:dateTimeStamp ;
+            ]                       
+        ) ;
+        sh:message "An Ontology must have a dct:modified property that must be either an xsd:date, xsd:dateTime or xsd:dateTimeStamp." ;
+    ] ;
+.

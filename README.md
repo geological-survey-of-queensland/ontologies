@@ -16,8 +16,12 @@ The currently published ontologies are:
   * [repository](https://github.com/geological-survey-of-queensland/geoadmin-features-ont)
   
   A machine-readable list of ontologies is also available at [register.json](register.json).
-  
-### Further Documentation
+
+## Ontology processing
+Publishing ontologies follows essentially same process as publishing vocabularies, except that some of the specific checks are a bit different. The full process is written out in the [the wiki of this repository](https://github.com/geological-survey-of-queensland/ontologies/wiki) as well as instructions on how to validate ontologies in [shapes/VALIDATION.md](shapes/VALIDATION.md).
+
+
+## Further Documentation
 More information about GSQ's ontologies overall is available within [the wiki of this repository](https://github.com/geological-survey-of-queensland/ontologies/wiki). Included is GSQ's ontology publication processes and descriptions of the relationship between ontologies and vocabularies.
   
 See the individual ontology's repos for information about them.
