@@ -6,10 +6,10 @@ The Geological Survey of Queensland publishes multiple [ontologies](https://en.w
 
 The currently published ontologies are:
 
-* **SWEET Geological Features Profile Ontology**
-  * HTML: *coming!*
-  * RDF (data): [Turtle file from the repo](https://raw.githubusercontent.com/geological-survey-of-queensland/sweet-geological-features-profile-ont/master/sweetgeofeatures.ttl)
-  * [repository](https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont)
+* **Geological Features Ontology**
+  * HTML: <http://linked.data.gov.au/def/geofeatures>
+  * RDF (data): <http://linked.data.gov.au/def/geofeatures.ttl>
+  * [repository](https://github.com/geological-survey-of-queensland/geofeatures-ont)
 * **GSQ Geological Administrative Features Ontology**
   * HTML: <http://linked.data.gov.au/def/geoadminfeatures>
   * RDF (data): <http://linked.data.gov.au/def/geoadminfeatures.ttl>
