@@ -6,25 +6,27 @@ The Geological Survey of Queensland publishes multiple [ontologies](https://en.w
 
 The currently published ontologies are:
 
-* **Geological Features Ontology**
-  * HTML: <http://linked.data.gov.au/def/geofeatures>
-  * RDF (data): <http://linked.data.gov.au/def/geofeatures.ttl>
-  * [repository](https://github.com/geological-survey-of-queensland/geofeatures-ont)
-* **GSQ Geological Administrative Features Ontology**
-  * HTML: <http://linked.data.gov.au/def/geoadminfeatures>
-  * RDF (data): <http://linked.data.gov.au/def/geoadminfeatures.ttl>
-  * [repository](https://github.com/geological-survey-of-queensland/geoadmin-features-ont)
+1. **Geological Features Ontology**
+    * HTML: <http://linked.data.gov.au/def/geofeatures>
+    * RDF: <http://linked.data.gov.au/def/geofeatures.ttl>
+    * [repository](https://github.com/geological-survey-of-queensland/geofeatures-ont)
+2. **GSQ Geological Administrative Features Ontology**
+    * HTML: <http://linked.data.gov.au/def/geoadminfeatures>
+    * RDF: <http://linked.data.gov.au/def/geoadminfeatures.ttl>
+    * [repository](https://github.com/geological-survey-of-queensland/geoadmin-features-ont)
+3. **GSQ Borehole Profile**
+    * HTML: <http://linked.data.gov.au/def/borehole>
+    * RDF: <http://linked.data.gov.au/def/borehole.ttl>
+    * [repository](https://github.com/geological-survey-of-queensland/gsq-borehole-profile)
+4. **Geo Profile of QUDT Ontology**
+    * HTML: <https://linked.data.gov.au/def/geou>
+    * RDF: <https://linked.data.gov.au/def/geou.ttl>
+    * [repository](https://github.com/geological-survey-of-queensland/qudt-geo-profile)
   
-  A machine-readable list of ontologies is also available at [register.json](register.json).
+A machine-readable list of ontologies is also available at [register.json](register.json).
 
-## Ontology processing
-Publishing ontologies follows essentially same process as publishing vocabularies, except that some of the specific checks are a bit different. The full process is written out in the [the wiki of this repository](https://github.com/geological-survey-of-queensland/ontologies/wiki) as well as instructions on how to validate ontologies in [shapes/VALIDATION.md](shapes/VALIDATION.md).
-
-
-## Further Documentation
-More information about GSQ's ontologies overall is available within [the wiki of this repository](https://github.com/geological-survey-of-queensland/ontologies/wiki). Included is GSQ's ontology publication processes and descriptions of the relationship between ontologies and vocabularies.
-  
-See the individual ontology's repos for information about them.
+## Process Documentation
+For information about how GSQ staff should publish ontologies, see files within the [documentation/](documentation/) folder. 
 
 
 ## Contacts
