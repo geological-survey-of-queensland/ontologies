@@ -48,13 +48,13 @@ Not all of the specialised Classes GSQ has produced or needs are shown in Figure
 
 ### Features
 
-GSQ's Geo Features Domain, as per Figure 1, comprises of both real world "geo" and human-created "admin" features. These two types of features are modelled in the [Geological Features Ontology](http://linked.data.gov.au/def/geofeatures) and the [GSQ Geological Administrative Features Ontology](http://linked.data.gov.au/def/geoadminfeatures) respectively.
+GSQ's Geo Features Domain, as per Figure 1, comprises of both real world "geo" and human-created "admin" features. These two types of features are modelled in the [Geological Features Ontology](https://linked.data.gov.au/def/geofeatures) and the [GSQ Geological Administrative Features Ontology](https://linked.data.gov.au/def/geoadminfeatures) respectively.
 
 Both of these ontologies are essentially just taxonomies of specialised classes of the [GeoSPARQL Ontology](https://www.ogc.org/standards/geosparql/)'s general purpose `geo:Feature` class. This general class is used to separate the concept of a *feature* from its metadata, including any geometry information. A *feature* could be "Uluru" with both centroid and boundary `geo:Geometry` data related to it.
 
 #### Geo-features
 
-GSQ's geo-features given in the [Geological Features Ontology](http://linked.data.gov.au/def/geofeatures) are all geological features well known to geologists, for example, `geof:Craton` or `geof:MagnetostratigraphicUnit`.
+GSQ's geo-features given in the [Geological Features Ontology](https://linked.data.gov.au/def/geofeatures) are all geological features well known to geologists, for example, `geof:Craton` or `geof:MagnetostratigraphicUnit`.
 
 Modelling of geo-features is part of an international effort known as the [Semantic Web for Earth and Environmental Terminology (SWEET) Ontologies](http://sweetontology.net) so care must be taken that changes to it accord with SWEET's general patterns.
 
@@ -62,16 +62,16 @@ It is a matter for GSQ's professional geologists to ensure the geo-features mode
 
 #### Admin Features
 
-GSQ's admin features given in the [GSQ Geological Administrative Features Ontology](http://linked.data.gov.au/def/geoadminfeatures) are conceptually a subset of all the human admininstrative features possible.
+GSQ's admin features given in the [GSQ Geological Administrative Features Ontology](https://linked.data.gov.au/def/geoadminfeatures) are conceptually a subset of all the human admininstrative features possible.
 
 Some well-known Australian admin features ontologies are:
 
 * Australian Statistical Geography Standard (ASGS) features
   * Published by the Austrlaian Bureau of Statistics
-  * <http://linked.data.gov.au/def/asgs>
+  * <https://linked.data.gov.au/def/asgs>
 * Place Names Ontology
   * Published by Geosciecne Australia for place name Gazettes
-  * <http://linked.data.gov.au/def/placenames>
+  * <https://linked.data.gov.au/def/placenames>
 
 Figure 4 shows the top-level admin features in the GSQ Geological Administrative Features Ontology.
 

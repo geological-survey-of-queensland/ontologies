@@ -39,9 +39,9 @@ Where:
 
 Existing persistent URIs for ontologies issued to GSQ are:
 
-* <http://linked.data.gov.au/def/geofeatures> - Geological Features Ontology
-* <http://linked.data.gov.au/def/geoadminfeatures> - GSQ Geological Administrative Features Ontology
-* <http://linked.data.gov.au/def/borehole> - GSQ Borehole Profile
+* <https://linked.data.gov.au/def/geofeatures> - Geological Features Ontology
+* <https://linked.data.gov.au/def/geoadminfeatures> - GSQ Geological Administrative Features Ontology
+* <https://linked.data.gov.au/def/borehole> - GSQ Borehole Profile
 * <https://linked.data.gov.au/def/geou> - Geo Profile of QUDT Ontology
 
 A URI should be requested when the ontology is being made.
@@ -73,7 +73,7 @@ pyLODE documents the properties it undertands but the rule is that properties re
 
 
 ## 4. Validate the data
-An ontology *must* pass validation before it may be published. GSQ ontologies must be valid according to the [Australian Government Ontology Profile (AGOP)](http://linked.data.gov.au/def/agop) which presents a series of validator files for this purpose.
+An ontology *must* pass validation before it may be published. GSQ ontologies must be valid according to the [Australian Government Ontology Profile (AGOP)](https://linked.data.gov.au/def/agop) which presents a series of validator files for this purpose.
 
 See the instructions in [VALIDATION](VALIDATION.md) in this directory for details.
 

@@ -1,20 +1,20 @@
 [
     {
         "title": "Geological Features Ontology",
-        "html_url": "http://linked.data.gov.au/def/geofeatures",
-        "rdf_url": "http://linked.data.gov.au/def/geofeatures.ttl",        
+        "html_url": "https://linked.data.gov.au/def/geofeatures",
+        "rdf_url": "https://linked.data.gov.au/def/geofeatures.ttl",        
         "repository": "https://github.com/geological-survey-of-queensland/geofeatures-ont"
     } ,
     {
         "title": "GSQ Geological Administrative Features Ontology",
-        "html_url": "http://linked.data.gov.au/def/geoadminfeatures",
-        "rdf_url": "http://linked.data.gov.au/def/geoadminfeatures.ttl",        
+        "html_url": "https://linked.data.gov.au/def/geoadminfeatures",
+        "rdf_url": "https://linked.data.gov.au/def/geoadminfeatures.ttl",        
         "repository": "https://github.com/geological-survey-of-queensland/geoadmin-features-ont"
     },
     {
         "title": "GSQ Borehole Profile",
-        "html_url": "http://linked.data.gov.au/def/borehole",        
-        "rdf_url": "http://linked.data.gov.au/def/borehole.ttl",
+        "html_url": "https://linked.data.gov.au/def/borehole",        
+        "rdf_url": "https://linked.data.gov.au/def/borehole.ttl",
         "repository": "https://github.com/geological-survey-of-queensland/gsq-borehole-profile"
     },
     {

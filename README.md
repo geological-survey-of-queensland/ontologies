@@ -7,16 +7,16 @@ The Geological Survey of Queensland publishes multiple [ontologies](https://en.w
 The currently published ontologies are:
 
 1. **Geological Features Ontology**
-    * HTML: <http://linked.data.gov.au/def/geofeatures>
-    * RDF: <http://linked.data.gov.au/def/geofeatures.ttl>
+    * HTML: <https://linked.data.gov.au/def/geofeatures>
+    * RDF: <https://linked.data.gov.au/def/geofeatures.ttl>
     * [repository](https://github.com/geological-survey-of-queensland/geofeatures-ont)
 2. **GSQ Geological Administrative Features Ontology**
-    * HTML: <http://linked.data.gov.au/def/geoadminfeatures>
-    * RDF: <http://linked.data.gov.au/def/geoadminfeatures.ttl>
+    * HTML: <https://linked.data.gov.au/def/geoadminfeatures>
+    * RDF: <https://linked.data.gov.au/def/geoadminfeatures.ttl>
     * [repository](https://github.com/geological-survey-of-queensland/geoadmin-features-ont)
 3. **GSQ Borehole Profile**
-    * HTML: <http://linked.data.gov.au/def/borehole>
-    * RDF: <http://linked.data.gov.au/def/borehole.ttl>
+    * HTML: <https://linked.data.gov.au/def/borehole>
+    * RDF: <https://linked.data.gov.au/def/borehole.ttl>
     * [repository](https://github.com/geological-survey-of-queensland/gsq-borehole-profile)
 4. **Geo Profile of QUDT Ontology**
     * HTML: <https://linked.data.gov.au/def/geou>

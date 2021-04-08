@@ -12,7 +12,7 @@ For an ontolology to be assessed as valid (in contrast to being assessed for sen
 
 The validators relevant for GSQ ontologies are:
 
-1. [Australian Government Ontology Profile (AGOP)](http://linked.data.gov.au/def/agop) validators
+1. [Australian Government Ontology Profile (AGOP)](https://linked.data.gov.au/def/agop) validators
     * these validators check for basic ontology metadata, the formulation of agents (people, orgs) related to the ontology and basic Class and Property elements such as titles & descriptions
 2. GSQ validators
     * these validators go beyond AGOP's to look for things GSQ deems necissary in its ontologies
