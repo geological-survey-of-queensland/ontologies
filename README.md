@@ -30,21 +30,8 @@ For information about how GSQ staff should publish ontologies, see files within 
 
 
 ## Contacts
-*Ontologies owner*:  
-**Mark Gordon**  
-Geological Survey of Quensland  
-Department of Natural Resources, Mines and Energy  
-Brisbane, QLD, Australia  
-<mark.gordon@dnrme.qld.gov.au>  
-
-*GSQ Data Mananger*:  
-**Vance Kelly**  
-Geological Survey of Quensland  
-Department of Natural Resources, Mines and Energy  
-Brisbane, QLD, Australia    
-<vance.kelly@dnrme.qld.gov.au>  
-
-*Author & Ontology specialist*:  
-**Nicholas Car**  
-[SURROUND Australia Pty Ltd](https://surroundaustralia.com)  
-<nicholas.car@surroundaustralia.com>
+**Geoscience Information Team**,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,
+<geological_info@resources.qld.gov.au>
